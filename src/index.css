@@ -16,7 +16,7 @@ body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
   line-height: 1.6;
   color: #1a202c;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1e40af 0%, #dc2626 50%, #059669 100%);
   background-attachment: fixed;
   overflow-x: hidden;
 }
@@ -59,7 +59,7 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+  background: linear-gradient(135deg, #dc2626, #f59e0b, #10b981, #3b82f6);
   background-size: 300% 300%;
   animation: gradientShift 3s ease infinite;
   -webkit-background-clip: text;
@@ -126,7 +126,7 @@ body {
 .floating-element {
   position: absolute;
   border-radius: 50%;
-  background: linear-gradient(135deg, rgba(255, 107, 107, 0.3), rgba(78, 205, 196, 0.3));
+  background: linear-gradient(135deg, rgba(220, 38, 38, 0.3), rgba(16, 185, 129, 0.3));
   animation: float 6s ease-in-out infinite;
   pointer-events: none;
 }
@@ -146,7 +146,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #667eea, #764ba2, #f093fb, #f5576c);
+  background: linear-gradient(135deg, #1e40af, #dc2626, #f59e0b, #059669);
   background-size: 300% 300%;
   animation: gradientShift 4s ease infinite;
   -webkit-background-clip: text;
@@ -169,7 +169,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  background: linear-gradient(135deg, #1e40af 0%, #dc2626 50%, #059669 100%);
   color: white;
   text-align: center;
   position: relative;
@@ -243,7 +243,7 @@ body {
 
 /* Modern Buttons with glassmorphism */
 .btn-primary {
-  background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+  background: linear-gradient(135deg, #dc2626, #f59e0b);
   color: white;
   border: none;
   padding: 1rem 2.5rem;
@@ -356,7 +356,7 @@ body {
 .stat-card {
   text-align: center;
   padding: 2rem;
-  background: linear-gradient(135deg, rgba(255, 107, 107, 0.2), rgba(78, 205, 196, 0.2));
+  background: linear-gradient(135deg, rgba(220, 38, 38, 0.2), rgba(16, 185, 129, 0.2));
   border-radius: 20px;
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -372,7 +372,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+  background: linear-gradient(135deg, #dc2626, #10b981);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -412,7 +412,7 @@ body {
 
 .skill-percentage {
   font-weight: 700;
-  background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+  background: linear-gradient(135deg, #dc2626, #10b981);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -430,7 +430,7 @@ body {
 
 .skill-progress {
   height: 100%;
-  background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1);
+  background: linear-gradient(90deg, #dc2626, #f59e0b, #10b981, #3b82f6);
   background-size: 200% 100%;
   animation: shimmer 2s infinite;
   border-radius: 20px;
@@ -467,7 +467,7 @@ body {
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+  background: linear-gradient(90deg, #dc2626, #f59e0b, #10b981, #3b82f6);
   background-size: 300% 100%;
   animation: gradientShift 3s ease infinite;
 }
@@ -499,7 +499,7 @@ body {
 }
 
 .project-tag {
-  background: linear-gradient(135deg, rgba(255, 107, 107, 0.3), rgba(78, 205, 196, 0.3));
+  background: linear-gradient(135deg, rgba(220, 38, 38, 0.3), rgba(16, 185, 129, 0.3));
   color: #ffffff;
   padding: 0.5rem 1rem;
   border-radius: 25px;
@@ -512,7 +512,7 @@ body {
 
 .project-tag:hover {
   transform: scale(1.05);
-  background: linear-gradient(135deg, rgba(255, 107, 107, 0.5), rgba(78, 205, 196, 0.5));
+  background: linear-gradient(135deg, rgba(220, 38, 38, 0.5), rgba(16, 185, 129, 0.5));
 }
 
 /* Contact Section */
@@ -567,7 +567,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+  background: linear-gradient(135deg, #dc2626, #10b981);
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
@@ -618,9 +618,9 @@ body {
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #4ecdc4;
+  border-color: #10b981;
   background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 0 20px rgba(78, 205, 196, 0.3);
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
 }
 
 /* Responsive Design */
@@ -669,7 +669,7 @@ body {
   left: 50%;
   width: 100px;
   height: 100px;
-  background: radial-gradient(circle, rgba(255, 107, 107, 0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(220, 38, 38, 0.1) 0%, transparent 70%);
   border-radius: 50%;
   transform: translateX(-50%);
   animation: pulse 4s ease-in-out infinite;
